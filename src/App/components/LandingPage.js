@@ -7,7 +7,7 @@ import Footer from './Footer';
 function LandingPage() {
   return (
     <div>
-    <Header/>
+ 
       <Slider/>
       <Blog/>
       <Footer/>

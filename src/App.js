@@ -21,9 +21,9 @@ function App() {
     <Header/>
     <Routes>
         
-          <Route path="/" component={<LandingPage/>} />
-          <Route path="/about" component={<About/>}/>
-          <Route path="/blog" component={<Blog/>} />
+          <Route path="/" exact element={<LandingPage/>} ></Route>
+          <Route path="/about" element={<About/>}></Route>
+          <Route path="/blog" element={<Blog/>}></Route>
     </Routes>
   </BrowserRouter>
   
